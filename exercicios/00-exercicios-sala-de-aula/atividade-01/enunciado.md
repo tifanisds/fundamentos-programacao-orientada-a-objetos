@@ -20,5 +20,5 @@ solicitação. O sistema deve permitir:
 - b) Utilizar um contador estático para gerar IDs automaticamente.
 - c) Criar múltiplos construtores para facilitar a criação de OSs.
 - d) Implementar sobrecarga no método de atualização da OS.
-- e) Criar uma classe especializada OSPrioritaria que sobrescreva o
+- e) Criar uma classe especializada OS Prioritaria que sobrescreva o
 método de exibição
