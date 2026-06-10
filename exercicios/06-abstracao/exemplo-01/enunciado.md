@@ -1,6 +1,6 @@
 Uma empresa de logística utiliza diferentes tipos de veículos para realizar entregas em todo o país. Apesar de cada veículo possuir características específicas, todos compartilham algumas informações básicas, como placa, modelo e capacidade de carga.
 
-Sabendo disso, desenvolva um sistema orientado a objetos em PHP que atenda aos seguintes requisitos:
+Sabendo disso, desenvolva um sistema orientado a objetos que atenda aos seguintes requisitos:
 
 Crie uma classe abstrata chamada Veiculo, contendo os atributos:
 - placa;
