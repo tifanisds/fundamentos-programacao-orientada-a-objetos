@@ -9,15 +9,14 @@ class Main {
 
         if(valor.equals("1")) {
             Caminhao caminhao = new Caminhao("Hd6GD5", "Truck", 22000);
-            System.out.println("CAMINHÃO: " + caminhao.modelo);
-            System.out.println("Placa: " + caminhao.placa);
-            System.out.println("Capacidade de carga: " + caminhao.capacidadeDeCarga);
+            caminhao.verVeiculo();
+            caminhao.ExibirValorViagem(22000, caminhao.getCustoPorKM());
         }
+
         if(valor.equals("2")) {
             Moto moto = new Moto("FJ939J", "Scooter", 300);
-            System.out.println("MOTO: " + moto.modelo);
-            System.out.println("Placa: " + moto.placa);
-            System.out.println("Capacidade de carga: " + moto.capacidadeDeCarga);
+            moto.verVeiculo();
+            moto.ExibirValorViagem(300, moto.getCustoPorKM());
         }
     }
 }

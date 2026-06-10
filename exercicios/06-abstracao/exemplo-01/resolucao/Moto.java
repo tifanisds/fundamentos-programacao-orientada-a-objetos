@@ -7,7 +7,15 @@ public class Moto extends Veiculo {
         super.capacidadeDeCarga = capacidadeDeCarga;
     }
 
-    void ExibirValorViagem(double distancia) {
-        System.out.println(super.custoDeViagem(distancia, custoPorKM));
+    void ExibirValorViagem(double distancia, double custoPorKM) {
+        System.out.println("R$ " + super.custoDeViagem(distancia, custoPorKM));
+    }
+
+    public double getCustoPorKM() {
+        return custoPorKM;
+    }
+
+    public void setCustoPorKM(double custoPorKM) {
+        this.custoPorKM = custoPorKM;
     }
 }
